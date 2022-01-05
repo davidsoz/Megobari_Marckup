@@ -28,7 +28,11 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
+.flex-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .flex-gap-40 {
     display: flex;
     gap: 58px;
@@ -228,3 +232,30 @@ img {
     padding: 1.2rem 0;
 }
 
+.marketing {
+    padding: 1.1rem 0 1rem 0;
+    background: linear-gradient(803.06deg,#c02827 466.07%,#a73030 98.54%);
+
+}
+
+.marketing .container div span {
+    display: block;
+}
+
+.marketing .container div span:first-child {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.marketing .container div span:last-child {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 0.4rem;
+    color: #f2f2f2;
+    opacity: 0.5;
+}
+
+.marketing .container div {
+    text-align: center;
+}
