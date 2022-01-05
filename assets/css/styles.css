@@ -49,7 +49,6 @@ img {
 
 .header-navigation ul {
     font-size: 1.1rem;
-    color: #132463;
 }
 
 .btn {
@@ -78,8 +77,15 @@ img {
     width: 14rem;
     font-size: 2rem;
     font-weight: 600;
-    color: #c02827;
     box-shadow: 0 5px 23px -8px #000;
+}
+
+.red-text {
+    color: #c02827;
+}
+
+.blue-text {
+    color: #132463;
 }
 
 .nav-buttons {
@@ -101,7 +107,7 @@ img {
 }
 
 .banner {
-    padding: 10rem 0;
+    padding: 10rem 0 12rem 0;
     color: #fff;
 }
 
@@ -113,7 +119,6 @@ img {
 
 .banner h1 span {
     padding: 1rem;
-    color: #c02827;
     background-color: #fff;
 }
 
@@ -142,3 +147,84 @@ img {
     background-repeat: no-repeat;
     background-position: bottom;
 }
+
+.services-title {
+    padding-top: 7rem;
+    text-align: center;
+}
+
+.services-title h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.services-title p {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    font-weight: 800;
+    margin-top: 2rem;
+}
+
+.services-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.services-list ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    padding: 0.8rem;
+    background-color: #fcf5f4;
+    border-radius: 5rem;
+}
+
+.services-list ul li {
+    padding: 1.3rem 2rem;
+    font-weight: 600;
+}
+
+.services-list ul li:hover {
+    background-color: #fff;
+    color: #a73030;
+    border-radius: 3rem;
+}
+
+.chosen-service {
+    display: flex;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.chosen-service div {
+    width: 50%;
+}
+
+.chosen-service div:first-child {
+    text-align: center;
+}
+
+.chosen-service div h3 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.chosen-service div img {
+    width: 80%;
+}
+
+.chosen-service div p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 35rem;
+    margin-top: 1rem;
+}
+
+.btn-blue {
+    color: #fff;
+    background-color: #132463;
+    margin-top: 3rem;
+    padding: 1.2rem 0;
+}
+
