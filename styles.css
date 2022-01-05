@@ -1,0 +1,85 @@
+@import url('./reset.css');
+@import url('./fonts.css');
+:root {
+    font-size: 14px;
+}
+
+body {
+    font-family: 'mont';
+    font-weight: 600;
+}
+
+.nav-container {
+    font-family: 'mont';
+    font-weight: 400;
+}
+
+.test {
+    font-family: 'mont';
+}
+
+.container {
+    margin: 0 100px;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-gap-40 {
+    display: flex;
+    gap: 58px;
+    align-items: center;
+}
+
+header .container {
+    padding: 15px 0;
+}
+
+.header-logo {
+    width: 75px;
+}
+
+img {
+    width: 100%;
+}
+
+.header-navigation ul {
+    font-size: 1.1rem;
+}
+
+.btn {
+    font-size: 1.2rem;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding: 1rem 0 0.6rem 0;
+    border: 1px solid red;
+    border-radius: 7px;
+}
+
+.btn-dangerous {
+    border: none;
+    color: #fff;
+    background-color: #c02827;
+}
+
+.btn-border {
+    color: #132463;
+    border: 2px solid #c02827;
+    box-shadow: 1px 5px 6px -6px #000;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.header-navigation span {
+    display: inline-block;
+    padding: 3px;
+    width: 15px;
+}
+
