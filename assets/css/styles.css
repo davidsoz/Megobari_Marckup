@@ -63,6 +63,10 @@ img {
     font-size: 1.1rem;
 }
 
+.header-navigation ul li {
+    cursor: pointer;
+}
+
 .btn {
     font-size: 1.2rem;
     display: inline-block;
@@ -422,7 +426,231 @@ img {
     cursor: pointer;
 }
 
+.brands {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    gap: 1.4rem;
+}
 
+.brands div {
+    width: 18rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
 
+.meticolously {
+    background-image: url('../../assets/images/meticulously.png');
+}
 
+.lixirskin {
+    background: url('../../assets/images/lixsirskin.png');
+    background-size: cover;
+}
+
+.steps {
+    background: url('../images/3steps.png');
+}
+
+.black-friday {
+    background: url('../images/black_friday.png');
+}
+
+.testimonials {
+    margin-top: 5rem;
+    padding: 5rem 0;
+    background-color: #fbf0f0;
+}
+
+.testimonials h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.testimonials h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.testimonials .container div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.changer {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem 1.4rem;
+    border-radius: 50%;
+    font-weight: 400;
+}
+
+.previous {
+    color: #a73030;
+    background-color: #fff;
+}
+
+.next {
+    color: #fff;
+    background-color: #a73030;
+    margin-left: 1.7rem;
+}
+
+.next.second {
+    margin: 0;
+}
+
+.blog {
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.blog h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.blog h3 {
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.blog-list .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-list .container>div {
+    width: 24rem;
+    padding: 1.1rem;
+    border: 1px solid #eaeaea;
+    background-color: #fbfbfb;
+    border-radius: 1.1rem;
+}
+
+.figure {
+    height: 14rem;
+    background-size: cover;
+    border-radius: 1.1rem;
+}
+
+.figure.left {
+    background-image: url('../images/image_18.png');
+}
+
+.figure.middle {
+    background-image: url('../images/image_19.png');
+}
+
+.figure.right {
+    background-image: url('../images/image_20.png');
+}
+
+.blog-list h2 {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.blog-list p {
+    margin-top: 1.7rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.blog-list span {
+    display: inline-block;
+    margin-top: 1.7rem;
+    font-size: 1.1rem;
+}
+
+footer {
+    margin-top: 5rem;
+    background-image: url('../images/footer_background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.booking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 1rem;
+    color: #fff;
+}
+
+.booking h1 {
+    margin-top: 3rem;
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+.booking p {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.book-call {
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.book-call a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 20rem;
+    padding: 1.5rem 5rem;
+    box-shadow: 0 5px 23px -8px #000;
+}
+
+.book-call img {
+    width: 6rem;
+}
+
+.copyright {
+    padding: 1.7rem 0 2rem 0;
+}
+
+.copyright p {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.menu-bar {
+    position: absolute;
+    top: 4rem;
+    left: 35rem;
+    width: 220px;
+    border-radius: 10px;
+    padding: 0 0 20px 20px;
+    border: 1px solid #eaeaea;
+    color: #939393;
+    background-color: #fff;
+}
+
+.menu-bar ul li {
+    margin-top: 2rem;
+}
+
+.menu-bar a {
+    color: #939393;
+}
+
+.menu-bar ul li a:hover {
+    color: black;
+}
+
+.hide {
+    display: none;
+}
 
